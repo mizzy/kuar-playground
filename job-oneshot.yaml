@@ -16,6 +16,6 @@ spec:
           imagePullPolicy: Always
           args:
             - --keygen-enable
-            - --kygen-exit-on-complete
-            - --kengen-num-to-gen=10
+            - --keygen-exit-on-complete
+            - --keygen-num-to-gen=10
       restartPolicy: OnFailure
